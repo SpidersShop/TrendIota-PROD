@@ -142,3 +142,13 @@ Admin User
 
  Username: Test@trendIota.ca
  Password: User@5678
+
+Deepak Deepak
+2025-03-07
+
+3028
+-Performed final production and fixed some errors
+3045
+-Finalize the development and creat the azure account with my college id 
+4000
+-Push the project in azure and create the link for submission.
