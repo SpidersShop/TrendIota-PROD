@@ -1,84 +1,150 @@
-# TrendIOTA - Premium Fashion Bags
+# TrendIota
 
-TrendIOTA is a premium bag brand that combines elegance and functionality. We offer high-quality products designed for modern trendsetters who value both style and innovation. Our product catalog includes five unique models tailored to different tastes and needs.
+Trend IOTA - Product Catalog Web Application
+Group: IOTA
+Course: CYB206-25W-001 - Web Application Security (Winter 2025 - 001)
+Project Submission Date: February 19, 2025
 
-## ✨ About Us
+20250219
+1000
 
-TrendIOTA is headquartered in Toronto, Canada, where our team of designers works to create the perfect balance between aesthetics and usability. We aim to provide our customers with a unique experience by offering stylish, durable, and innovative designs.
+Project Created, Prototype defined.
 
-## 👉 Why Choose TrendIOTA?
-- **High-Quality Materials**: We use the finest leather, suede, and water-resistant fabrics.
-- **Unique & Trendy Designs**: Our collections follow the latest fashion trends to enhance your style.
-- **100% Customer Satisfaction**: We continuously improve based on customer feedback.
+1025
 
-## 👜 Our Product Catalog
+Asp.NET project started
 
-### 1. IOTA Elegance Tote
-- **ID**: 001
-- **Price**: $120
-- **Material**: Genuine Leather
-- **Colors**: Black, Brown, Navy
-- **Dimensions**: 14" x 10" x 6"
+Product Details - Trend IOTA Bags
 
-### 2. IOTA Chic Crossbody
-- **ID**: 002
-- **Price**: $85
-- **Material**: Vegan Leather
-- **Colors**: Red, Beige, Grey
-- **Dimensions**: 10" x 8" x 3"
+Project Overview
+This project is a web application built using ASP.NET Core 8.0 that showcases a product catalog for our fictional brand, Trend IOTA. Trend IOTA specializes in high-quality ladies' bags, offering a collection of five different models with detailed attributes.
+The application implements CRUD (Create, Read, Update, Delete) operations, enabling users to manage product information efficiently. Additionally, it features authentication with individual user accounts, ensuring secure access to product management functionalities.
+The project is hosted on GitHub and follows best practices in MVC (Model-View-Controller) architecture.
 
-### 3. IOTA Urban Backpack
-- **ID**: 003
-- **Price**: $150
-- **Material**: Water-Resistant Nylon
-- **Colors**: Black, Olive Green, Burgundy
-- **Dimensions**: 16" x 12" x 5"
+Product Details - Trend IOTA Bags
+Our product catalog features the following five models of Trend IOTA bags:
+1. IOTA Elegance Tote
+	ID: 001
+	Price: $120
+	Material: Genuine Leather
+	Color Options: Black, Brown, Navy
+	Dimensions: 14" x 10" x 6"
+2. IOTA Chic Crossbody
+	ID: 002
+	Price: $85
+	Material: Vegan Leather
+	Color Options: Red, Beige, Grey
+	Dimensions: 10" x 8" x 3"
+3. IOTA Urban Backpack
+	ID: 003
+	Price: $150
+	Material: Water-resistant Nylon
+	Color Options: Black, Olive Green, Burgundy
+	Dimensions: 16" x 12" x 5"
+4. IOTA Luxe Handbag
+	ID: 004
+	Price: $200
+	Material: Italian Suede
+	Color Options: Navy, Mustard Yellow, Emerald Green
+	Dimensions: 12" x 9" x 4"
+5. IOTA Everyday Satchel
+	ID: 005
+	Price: $110
+	Material: Premium Canvas
+	Color Options: White, Black, Denim Blue
+	Dimensions: 13" x 9.5" x 5"
 
-### 4. IOTA Luxe Handbag
-- **ID**: 004
-- **Price**: $200
-- **Material**: Italian Suede
-- **Colors**: Navy, Mustard Yellow, Emerald Green
-- **Dimensions**: 12" x 9" x 4"
+	Features of the Application
+	1. Authentication & Security
 
-### 5. IOTA Everyday Satchel
-- **ID**: 005
-- **Price**: $110
-- **Material**: Premium Canvas
-- **Colors**: White, Black, Denim Blue
-- **Dimensions**: 13" x 9.5" x 5"
+1040
+	Secure individual user accounts using ASP.NET Identity.
+	HTTPS configuration for encrypted connections.
+1100
+	Testing: Encountered an issue with user authentication failing due to incorrect database migrations (Time: 10:45). 	Fixed by applying dotnet ef migrations add 
+                 InitialCreate followed by dotnet ef database update.
+	2. Product Catalog (CRUD Operations)
+1130
+	Users can Create, Read, Update, and Delete bag models.
+	Displays detailed product information including price, material, colors, and dimensions.
+1200
+	Testing: Initial data retrieval failed due to an incorrect model binding 
+1230
+	Resolved by correcting the entity relationships in the database context.
+	3. Navigation & Pages
+1300
+	Home Page: Features the fictional company Trend IOTA.
+	Product Catalog Page: Displays all bag models with their attributes.
+	About Us Page: Provides company details, location, and team members.
+1345
+	Testing: Navigation links were not functioning correctly (Time: 13:45). Fixed by updating the 	app.UseRouting() configuration in Startup.cs.
+	4. Database Implementation
+1430
+	Uses Entity Framework Core for managing the product database.
+	Stores user authentication and product data securely.
+1500
+	Testing: Database seeding caused duplicate entries. Fixed by checking for existing records before 	inserting new ones .
 
-## 💻 About the Project
+	Repository & Documentation
+	External README.md: Includes project details and product catalog.
+	Internal README.txt: Contains logs and timestamps of development progress.
+	Additional Documentation: Flowcharts and comments are included in the code.
 
-This project is a web application built with ASP.NET Core 8.0, designed to showcase TrendIOTA's product catalog and allow users to manage products efficiently.
+	Contributors
+	Team IOTA Members: Ishika Narendrabhai Prajapati, Deepak Deepak, Kenan Karateke
 
-## ✅ Features
+GitHub repository: 
 
-- **CRUD Operations**: Users can create, read, update, and delete bag models.
-- **Authentication & Security**: Secure login and user management using ASP.NET Identity.
-- **Database Management**: Secure storage of user and product data with Entity Framework Core.
-- **Modern UI & User Experience**: A responsive and easy-to-navigate interface.
+Ishika Prajapati DEV
+2025-03-05
 
-## 📊 Development & Testing
+20:30
+- Initialized the development repository (TrendIOTA-DEV).
+21:00
+- Cloned the repository locally and configured the environment.
+21:30
+- Set up ASP.NET Core 8.0 project structure.
+22:00
+- Configured initial project dependencies and database setup.
+22:30
+- Implemented authentication using ASP.NET Identity.
 
-- **Database Issues**: Resolved using `dotnet ef migrations add InitialCreate` and `dotnet ef database update`.
-- **Navigation Errors**: Fixed by updating `app.UseRouting()` in the `Startup.cs` file.
-- **Database Seeding**: Prevented duplicate records by checking for existing entries before insertion.
+2025-03-06
 
-## 🌐 Repository & Documentation
+09:00
+- Started working on CRUD operations for product catalog.
+10:30
+- Implemented Create and Read functionalities.
+12:00
+- Completed Update and Delete functionalities.
+14:00
+- Debugged and fixed issues related to database migrations.
+16:00
+- Conducted initial testing of authentication and CRUD operations.
+18:30
+- Finalized database structure and entity relationships.
 
-This project is hosted on GitHub.
-- **External README.md**: Includes project details and product information.
-- **Internal README.txt**: Logs development progress and issue resolutions.
+2025-03-07
 
-## 👨‍💻 Contributors
+09:00 
+- Performed final testing and fixed UI navigation issues.
+11:00
+- Updated README file with development details.
+14:00
+- Prepared for repository submission.
+16:30
+- Pushed final changes to GitHub and confirmed deployment readiness.
 
-**Team IOTA**
+Deepak Deepak
+2025-03-07
 
-- Ishika Narendrabhai Prajapati
-- Deepak Deepak
-- Kenan Karateke
+3028
+-Performed final production and fixed some errors
+3045
+-Finalize the development and creat the azure account with my college id 
+4000
+-Push the project in azure and create the link for submission.
 
----
 
-This project was developed as part of the Web Application Security (CYB206-25W-001) course.
+
+
