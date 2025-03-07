@@ -149,6 +149,6 @@ Deepak Deepak
 3028
 -Performed final production and fixed some errors
 3045
--Finalize the development and creat the azure account with my college id 
+-Finalize the development and creat the azure account with my college id
 4000
 -Push the project in azure and create the link for submission.
